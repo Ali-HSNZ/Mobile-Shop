@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+    justify-content: center;
+    margin: 25px 0;
+}
+.parent_input{
+    width: 500px;
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.parent_input input{
+    width: 380px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.parent_input p {
+     height: 100%;
+}
